@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #efefef;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  padding: 10px;
+  color: rgba(10, 10, 10, 0.6);
+  cursor: default;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.wrapper p {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: small;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
